@@ -1,0 +1,85 @@
+.block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user-name {
+  font-size: 22px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.avatar{
+  border-radius: 50%;
+}
+
+.text,
+.data-text,
+.filter-name {
+  font-size: 16px;
+  letter-spacing: 0.32px;
+  color: #ffffff;
+  line-height: 28px;
+}
+
+.profession {
+  font-size: 16px;
+  color: #9ea3b4;
+}
+
+.data,
+.data-name,
+.date {
+  font-size: 14px;
+  line-height: 28px;
+  color: #9ca1b2;
+}
+
+.btn {
+  border: 2px solid #2196f3;
+  border-radius: 24px;
+  font-size: 18px;
+  letter-spacing: 0.24px;
+  color: #ffffff;
+  background-color: #2f3242;
+  cursor: pointer;
+
+  &:hover {
+    border-color: #ffffff;
+    color: #2196f3;
+    transition: ease-in 0.2s;
+  }
+
+  &:hover > .fa-plus {
+    color: #ffffff;
+    transition: ease-in 0.2s;
+  }
+
+  &:hover > .btn-text {
+    color: #2196f3;
+    transition: ease-in 0.2s;
+  }
+}
+
+.link {
+  font-size: 18px;
+  text-decoration: none;
+  color: #2b2d3c;
+
+  &:hover {
+    color: #ffffff;
+    transition: ease-in 0.2s;
+  }
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.filter-select{
+  border-radius: 18px;
+  border: 1 px solid rgba(255, 255, 255, 0.3);
+  color: #ffffff;
+  background-color: #2196f3;
+}

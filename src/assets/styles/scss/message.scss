@@ -1,0 +1,180 @@
+@import "blocks";
+@import "components";
+
+.message {
+  width: 100%;
+}
+
+.main,
+.message-block {
+  display: flex;
+}
+
+.inbox {
+  width: 540px;
+  background-color: #2b2d3c;
+  box-shadow: 0 3px 80px rgba(#2b2d3c, 0.3);
+}
+
+.inbox__item {
+  height: 200px;
+  padding: 40px 24px 40px 60px;
+  border-bottom: 1px solid rgba(#9ca1b2, 0.3);
+  cursor: pointer;
+
+  &:hover {
+    background-color: #2f3242;
+    transition: ease-in 0.2s;
+  }
+}
+
+.inbox__header {
+  margin: 0 auto;
+}
+
+.inbox-user__avatar {
+  width: 42px;
+  height: 42px;
+  margin-right: 15px;
+}
+
+.inbox-item__text {
+  margin: 30px auto 0;
+}
+
+.inbox-item__text_color-gray {
+  color: #9ca1b2;
+}
+
+.inbox__btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 51px;
+  margin: 20px auto 0;
+  padding: 16px 128px 20px 118px;
+  font-size: 18px;
+  color: #ffffff;
+  cursor: pointer;
+  border: none;
+  background-color: #2196f3;
+  border-radius: 5px;
+}
+
+.fa-plus-btn {
+  margin-right: 15px;
+  color: #ffffff;
+}
+
+.coversation {
+  width: 53%;
+  padding: 35px 25px;
+  background-color: #2f3242;
+}
+
+.friend-message,
+.your-message {
+  justify-content: flex-start;
+  margin-bottom: 48px;
+}
+
+.your-message {
+  flex-direction: row-reverse;
+}
+
+.friend-message__img,
+.your-message__img {
+  width: 56px;
+  height: 56px;
+  margin-right: 20px;
+}
+
+.your-message__img {
+  margin-left: 20px;
+  margin-right: 0;
+}
+
+.friend-message__text,
+.your-message__text {
+  max-width: 460px;
+  letter-spacing: 0.32px;
+  background-color: #404359;
+  border-radius: 10px;
+  line-height: 28px;
+  padding: 14px 31px 12px 20px;
+}
+
+.your-message__text {
+  background-color: #2196f3;
+}
+
+.friend-message__date,
+.your-message__date {
+  display: flex;
+  margin-top: 10px;
+}
+
+.your-message__date {
+  justify-content: flex-end;
+}
+
+.coversation__write {
+  width: 100%;
+  height: 51px;
+  padding: 0 25px;
+  font-size: 16px;
+  border-radius: 10px;
+  border: 1px solid rgba(156, 161, 178, 0.3);
+  background-color: #404359;
+  color: #9ca1b2;
+}
+
+.about {
+  position: relative;
+  text-align: center;
+  padding: 58px 22px 0;
+  background-color: #2b2d3c;
+  box-shadow: 0 3px 80px rgba(23, 24, 32, 0.3);
+}
+
+.about__img{
+  &::after{
+    content: "";
+    color: #ffffff;
+    width: 24px;
+    height: 24px;
+    background-color: green;
+    border: 3px solid #2b2d3c;
+    position: absolute;
+    right: 30%;
+    border-radius: 50%;
+  }
+}
+
+.about__avatar{
+  width: 124px;
+  height: 124px;
+  margin-bottom: 40px;
+}
+
+.about__name {
+  margin-bottom: 8px;
+}
+
+.about__profession {
+  display: block;
+  margin-bottom: 27px;
+}
+
+.about__data {
+  max-width: 275px;
+}
+
+.about__info {
+  margin-top: 55px;
+}
+
+.about-item__text {
+  display: block;
+  margin-bottom: 25px;
+}

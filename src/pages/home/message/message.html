@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/src/assets/styles/css/reset.css" />
+    <link rel="stylesheet" href="/src/assets/styles/css/message.css" />
+    <link rel="stylesheet" href="/src/assets/styles/css/all.min.css" />
+    <title>Homework 12</title>
+  </head>
+  <body>
+    <header class="block header">
+      <a href="#" class="header__logo">
+        <img src="/src/assets/images/massages/header/logo.png" alt="" />
+      </a>
+      <div class="block header-menu">
+        <div class="header-menu__item">
+          <button class="block btn header-menu__btn">
+            <p>Add</p>
+            <i class="fas fa-plus"></i>
+          </button>
+        </div>
+        <div class="header-menu__item">
+          <a href="#"><i class="fas fa-search"></i></a>
+        </div>
+        <div class="header-menu__item">
+          <a href="#"><i class="far fa-bell"></i></a>
+        </div>
+        <div class="header-menu__item">
+          <div class="block header-menu__user">
+            <img src="/src//assets/images/massages/header/user-photo.png" alt="" class="avatar header__avatar"/>
+            <img src="/src//assets/images/massages/header/arrow-down.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <div class="sidebar">
+        <div class="block sidebar-menu">
+          <div class="sidebar-menu__item">
+            <a href="#"><i class="fas fa-home"></i></a>
+          </div>
+          <div class="sidebar-menu__item">
+            <a href="#"><i class="fas fa-bars"></i></a>
+          </div>
+          <div class="sidebar-menu__item">
+            <a href="#"><i class="fas fa-level-up-alt"></i></a>
+          </div>
+          <div class="sidebar-menu__item">
+            <a href="#"><i class="far fa-envelope"></i></a>
+          </div>
+          <div class="sidebar-menu__item">
+            <a href="#"><i class="fas fa-user-friends"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="message">
+        <div class="block second-menu">
+          <div class="block second-menu__links">
+            <a href="#" class="link second-menu__link">
+              <i class="fas fa-inbox"></i>Inbox (2)
+            </a>
+
+            <a href="#" class="link second-menu__link">
+              <i class="fab fa-telegram-plane"></i>Sent
+            </a>
+
+            <a href="#" class="link second-menu__link">
+              <i class="fas fa-trash"></i>Trash
+            </a>
+          </div>
+          <div class="block second-menu__filter">
+            <span class="filter-name second-menu__filter-name">
+              Filter messages:
+            </span>
+            <select class="filter-select second-menu__filter-select" name="select" id="select">
+              <option value="">Date</option>
+              <option value="">Date</option>
+              <option value="">Date</option>
+            </select>
+          </div>
+        </div>
+        <div class="message-block">
+          <div class="inbox">
+            <div class="inbox__items">
+
+              <div class="inbox__item">
+                <div class="block inbox__header">
+                  <div class="block inbox-user">
+                    <img src="/src//assets/images/massages/inbox/user-1.png" alt="" class="avatar inbox-user__avatar"/>
+                    <h3 class="user-name inbox-user__name">
+                      Michelle Stewart
+                    </h3>
+                  </div>
+                  <span class="date inbox-item-header__date">
+                    Today, 5:32 PM
+                  </span>
+                </div>
+                <p class="text inbox-item__text inbox-item__text_color-gray">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusm.
+                </p>
+              </div>
+
+              <div class="inbox__item">
+                <div class="block inbox__header">
+                  <div class="block inbox-user">
+                    <img src="/src//assets/images/massages/inbox/user-2.png" alt="" class="avatar inbox-user__avatar"/>
+                    <h3 class="user-name inbox-user__name">
+                      Jolene Slater
+                    </h3>
+                  </div>
+                  <span class="date inbox-item-header__date">
+                    10 April
+                  </span>
+                </div>
+                <p class="text inbox-item__text inbox-item__text_color-gray">
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.
+                </p>
+              </div>
+
+              <div class="inbox__item">
+                <div class="block inbox__header">
+                  <div class="block inbox-user">
+                    <img src="/src//assets/images/massages/inbox/user-3.png" alt="" class="avatar inbox-user__avatar"/>
+                    <h3 class="user-name inbox-user__name">
+                      Lyall Roach
+                    </h3>
+                  </div>
+                  <span class="date inbox-item-header__date">
+                    8 April
+                  </span>
+                </div>
+                <p class="text inbox-item__text inbox-item__text_color-gray">
+                  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                </p>
+              </div>
+
+              <div class="inbox__item">
+                <div class="block inbox__header">
+                  <div class="block inbox-user">
+                    <img src="/src//assets/images/massages/inbox/user-4.png" alt="" class="avatar inbox-user__avatar"/>
+                    <h3 class="user-name inbox-user__name">
+                      Dominic Lynton
+                    </h3>
+                  </div>
+                  <span class="date inbox-item-header__date">
+                    2 April
+                  </span>
+                </div>
+                <p class="text inbox-item__text inbox-item__text_color-gray">
+                  Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.
+                </p>
+              </div>
+
+            </div>
+            <button class="inbox__btn">
+              <i class="fas fa-plus fa-plus-btn"></i><p>New coversation</p>
+            </button>
+          </div>
+          <div class="coversation">
+
+            <div class="block friend-message">
+              <img src="/src//assets/images/massages/coversation/friend.png" alt="" class="avatar friend-message__img">
+              <div class="friend-message__info">
+                <p class="text friend-message__text">
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ulla.
+                </p>
+                <span class="date friend-message__date">
+                  4 April 2016, 5:32 PM
+                </span>
+              </div>
+            </div>
+
+            <div class="block your-message">
+              <img src="/src//assets/images/massages/coversation/user.png" alt="" class="avatar your-message__img">
+              <div class="your-message__info">
+                <p class="text your-message__text">
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.
+                </p>
+                <span class="date your-message__date">
+                  4 April 2016, 5:32 PM
+                </span>
+              </div>
+            </div>
+
+            <div class="block friend-message">
+              <img src="/src//assets/images/massages/coversation/friend.png" alt="" class="avatar friend-message__img">
+              <div class="friend-message__info">
+                <p class="text friend-message__text">
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ulla.
+                </p>
+                <span class="date friend-message__date">
+                  4 April 2016, 5:32 PM
+                </span>
+              </div>
+            </div>
+
+            <div class="block your-message">
+              <img src="/src//assets/images/massages//coversation/user.png" alt="" class="avatar your-message__img">
+              <div class="your-message__info">
+                <p class="text your-message__text">
+                  Ut enim ad minim veniam,ex ea commo!
+                </p>
+                <span class="date your-message__date">
+                  4 April 2016, 5:32 PM
+                </span>
+              </div>
+            </div>
+
+            <div class="block your-message">
+              <img src="/src//assets/images/massages/coversation/user.png" alt="" class="avatar your-message__img">
+              <div class="your-message__info">
+                <p class="text your-message__text">
+                  Ut enim ad minim!
+                </p>
+                <span class="date your-message__date">
+                  4 April 2016, 5:32 PM
+                </span>
+              </div>
+            </div>
+
+            <form action="">
+              <input type="text" placeholder="Write a message" class="coversation__write" name="write_message">
+              <label for="write_message"></label>
+            </form>
+          </div>
+          <div class="about">
+            <div class="about__img">
+              <img src="/src//assets/images/massages/about/user.png" alt="" class="avatar about__avatar">
+            </div>
+            <h2 class="user-name about__name">Lyall Roach</h2>
+            <span class="profession about__profession">UX/UI Designer</span>
+            <p class="data about__data">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+            </p>
+            <div class="about__info">
+
+              <div class="about-item">
+                <p class="data-name about-item__name">Email</p>
+                <span class="data-text about-item__text">lyallroach@gmail.com</span>
+              </div>
+
+              <div class="about-item">
+                <p class="data-name about-item__name">Phone</p>
+                <span class="data-text about-item__text">+48 500 400 300</span>
+              </div>
+
+              <div class="about-item">
+                <p class="data-name about-item__name">Adress</p>
+                <span class="data-text about-item__text">65 Lorem St, Warsaw, PL</span>
+              </div>
+
+              <div class="about-item">
+                <p class="data-name about-item__name">Organization</p>
+                <span class="data-text about-item__text">Symu.co</span>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+  <script src="main.js"></script>
+</html>
